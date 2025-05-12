@@ -41,9 +41,9 @@ export const ContactSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="space-y-8">
-            <h3>Contact Information</h3>
-            <div className="space-y-6 justify-center">
+          <div className="flex flex-col items-center space-y-8 text-center">
+            <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+            <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />
@@ -89,15 +89,21 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/joshua-dada-profile/"
+                  target="_blank"
+                >
                   <Linkedin />
                 </a>
 
-                <a href="#" target="_blank">
+                <a href="https://www.twitch.tv/jnovamusic" target="_blank">
                   <Twitch />
                 </a>
 
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100076222638024"
+                  target="_blank"
+                >
                   <Facebook />
                 </a>
               </div>
@@ -139,7 +145,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="josh@gmail.com"
+                  placeholder="joshuadada1996@gmail.com"
                 />
               </div>
 
