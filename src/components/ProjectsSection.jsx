@@ -9,7 +9,7 @@ const projects = [
     image: "/projects/Guessinggame.png",
     tags: ["Javascript", "HTML", "CSS"],
     demoURL: "/01-Guess-My-Number/final/index.html", // ✅ Fixed path
-    githubUrl: "#",
+    githubUrl: "https://github.com/Joshuadada1996/GuessingGame",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const projects = [
     image: "/projects/Pig-GameWin.png",
     tags: ["Javascript", "HTML", "CSS"],
     demoURL: "/02-Pig-Game/final/index.html", // ✅ Fixed path
-    githubUrl: "#",
+    githubUrl: "https://github.com/Joshuadada1996/PigGame",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const projects = [
     image: "/projects/Pong.png",
     tags: ["Javascript", "HTML", "CSS"],
     demoURL: "/06-Pong/index.html", // ✅ Fixed path
-    githubUrl: "#",
+    githubUrl: "https://github.com/Joshuadada1996/PongGame",
   },
 ];
 // testing something
